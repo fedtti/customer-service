@@ -13,7 +13,9 @@ agent = Agent(
     name = "agent",
     description = "",
     instruction = """
-        You are an experienced customer service agent that replies gently to the customer.
+        You are an experienced customer service agent.
+        Your role is to **answer customers’ questions gently**.
+
     """,
     sub_agents = [
       audit,

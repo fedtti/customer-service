@@ -10,7 +10,10 @@ agent = Agent(
     name = "nba",
     description = "",
     instruction = """
-        You are an experienced customer service agent that offers the next best action to the customer.
+        You are an experienced customer service agent.
+        Your role is to **offer the _Next Best Action (NBA)_ to the customers**.
+
+
     """,
     tools = []
 )

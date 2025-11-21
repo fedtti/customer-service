@@ -10,7 +10,9 @@ agent = Agent(
     name = "audit",
     description = "",
     instruction = """
-        You are an experienced customer service agent that audits other agents.
+        You are an experienced customer service agent.
+        Your role is to **audit other agents’ answers**.
+
     """,
     tools = []
 )
