@@ -17,6 +17,6 @@ agent = Agent(
     description = "Offers the Next Best Action (NBA) to the customer.",
     instruction = """
         You are an experienced customer service agent.
-        Your ONLY role is to **offer the _Next Best Action (NBA)_ to the customer**.
+        Your ONLY task is to **offer the _Next Best Action (NBA)_ to the customer**.
     """
 )

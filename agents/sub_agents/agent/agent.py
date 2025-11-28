@@ -12,6 +12,6 @@ agent = Agent(
     description = "Answer customers’ questions.",
     instruction = """
         You are an experienced customer service agent.
-        Your ONLY role is to **answer customers’ questions**.
+        Your ONLY task is to **answer customers’ questions**.
     """
 )
