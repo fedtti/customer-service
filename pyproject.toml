@@ -1,9 +1,9 @@
 [project]
-name = "adk-customer-service"
+name = "customer-service"
 version = "0.1.0"
 description = "Customer Service (ADK)"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
-    "google-adk>=1.18.0",
+    "google-adk>=1.20.0",
 ]
