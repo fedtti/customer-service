@@ -1,4 +1,4 @@
-# Customer Service (ADK)
+# Customer Service
 
 - [Abstract](#abstract)
 - [Instructions](#instructions)
@@ -8,6 +8,6 @@
 ## Instructions
 
 ```bash
-cd agents/
+cd customer_service/
 adk web
 ```

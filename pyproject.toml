@@ -1,7 +1,7 @@
 [project]
 name = "customer-service"
 version = "0.1.0"
-description = "Customer Service (ADK)"
+description = "Customer Service"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
