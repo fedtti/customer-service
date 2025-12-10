@@ -1,4 +1,4 @@
-from google.adk.agents import Agent
+from google.adk.agents import Agent, CallbackContext
 from google.genai import types
 print("✅ Libraries imported.")
 
@@ -15,7 +15,8 @@ try:
 
             Return a vote from 1 to 5 to the answer.
         """,
-        output_key = "kpi"
+        tools = [],
+        output_key = "kpi",
     )
     print(f"✅ Agent {auditor.name} created using model {auditor.model}.")
 except Exception as error:

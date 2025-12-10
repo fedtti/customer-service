@@ -36,4 +36,4 @@ except Exception as error:
     print(f"❌ Could not create or run the agent. Error: {error}.")
 
 
-root_agent = administrator
+root_agent = administrator # Export for Google Agent Development Kit (ADK).
